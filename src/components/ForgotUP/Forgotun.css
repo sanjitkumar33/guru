@@ -1,0 +1,49 @@
+#stack2{
+    background-color:#e9ecef;
+    margin: 0px!important;
+    height: 100vh;
+   }
+
+.forgot-password-container {
+    max-width: 500px;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .forgot-password-container h1 {
+    margin-top: 0;
+  }
+  
+  .forgot-password-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .verification-method {
+    margin-bottom: 10px;
+  }
+  
+  .verification-method label {
+    margin-right: 10px;
+  }
+  
+  .forgot-password-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .forgot-password-container button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,993 @@
+*{
+    font-family: Plus Jakarta Sans, 'Source Sans Pro';
+    margin: 0;
+    padding: 0;
+}
+/* section {
+    padding: 20px;
+    margin: 20px 20px;
+} */
+p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    color: #4e525f;
+}
+h1 {
+    color: #1E2A39;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    word-wrap: break-word;
+}
+h2 {
+    color: #1E2A39;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    word-wrap: break-word;
+}
+/* Hero section css start*/
+.jumbotron {
+    padding: 5rem 2rem;
+    background-color: #fafbff;
+}
+.jumbotron h1 {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    color: #1E2A39;
+    word-wrap: break-word;
+}
+.jumbotron p {
+    color: #4E525F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.btn-warning {
+    border-radius: 40px;
+    background-color: #FF5900;
+    color: #000000;
+    padding: 11px 36px;
+    font-size: 18px;
+    line-height: 32px;
+}
+.p-xy {
+    padding: 15px 20px !important;
+}
+.top-100 {
+    margin-top: -100px !important;
+}
+.line-height {
+    color: #1E2A39;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 38px;
+}
+h4 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%;
+}
+h5 {
+    color: #1E2A39;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
+}
+.txt-warning {
+    color: #fc4e03;
+    font-weight: 800;
+}
+.right-border {
+    border-right-style: dotted;
+    height: 60px;
+}
+.f-14 {
+    font-size: 14px !important;
+}
+.hero-img {
+    filter: drop-shadow(20px 0px 25px rgba(0, 0, 0, 0.2));
+}
+/* hero section css ends*/
+
+/* benefits section css start*/
+.about-img img {
+    width: 100%;
+    filter: drop-shadow(20px 0px 25px rgba(0, 0, 0, 0.1));
+}
+.hover-item {
+    transition: 0.3s;
+}
+.hover-item:hover {
+    transform: translate(0, -15px);
+}
+.benefits h1 {
+    line-height: 56px;
+    font-size: 40px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.f-21 {
+    color: #1E2A39;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+/* benefits section css end*/
+
+/* payment section css start*/
+.payment-section {
+    background-color: #fafbff;
+    margin: 0;
+}
+.h-270 {
+    height: 270px;
+}
+.rounded-lg {
+    border-radius: 25px !important;
+}
+.mt-80 img {
+    margin-top: -50px !important;
+}
+.payment-section .card h5 {
+    font-size: 20px;
+}
+.card h5 {
+    margin-top: 13px;
+}
+.payment-section .card p {
+    font-size: 15px;
+}
+.tester_new {
+    padding: 10px 0 80px;
+}
+.carousel-indicators {
+    bottom: -90px;
+}
+.tester_new .carousel-indicators .active {
+    opacity: 1;
+}
+.tester_new .carousel-item h5 {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.tester_new .carousel-item hr {
+    width: 100%;
+}
+.tester_new .carousel-item p {
+    color: #666;
+    line-height: 28px;
+    letter-spacing: 1px;
+} 
+
+.tester_new .carousel-indicators li:nth-child(2) {
+    background-image: url(https://s17.postimg.org/5q0yndefz/profile2.png);
+}
+.tester_new .carousel-indicators li:nth-child(3) {
+    background-image: url(https://s17.postimg.org/7ulbog0n3/profile3.png);
+}
+/* payment section css end*/
+
+/* payment section1 css start*/
+.group img {
+    height: 30%;
+    margin-bottom: 20px;
+}
+/* payment section1 css end*/
+
+/* payment gateway css start*/
+    .payment-gateway {
+        background-color: #fbfcff;
+        margin: 0;
+    }
+    .pxy-11 {
+         text-align: center;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .card-bg {
+        background-image: url(https://i.ibb.co/CscZppc/card-bg.jpg);
+        border: 1px solid #c6d1eb !important;
+        background-position: 100% 0;
+        background-size: 200% 100%;
+        transition: all .25s ease-in;
+    }
+    .payment-gateway .f-24 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+/* payment gateway css end*/
+
+/* pricing section css start*/
+.pricing h1 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.card__content {
+    position: relative;
+    background-color: #FFF;
+    padding: 2rem 0rem 2.5rem;
+    border-radius: 20px;
+    transition: .4s;
+    border: 1px solid #d0dcee;
+  }
+  .card__pricing {
+    position: absolute;
+    background: #4e72f0;
+    width: 187px;
+    height: 55px;
+    left: -1.3rem;
+    top: 1.3rem;
+    border-radius: 0px 50px 50px 0px;
+    padding-top: 1rem;
+    text-align: center;
+  }
+  
+  .card__pricing-symbol {
+    font-size:16px;
+    line-height: 18px;
+  }
+  .card__pricing-month {
+    display: block;
+    font-size: 0.625rem;
+  }
+  
+  .card__pricing-number, 
+  .card__pricing-month {
+    color: #fff;
+  }
+  
+  .card__pricing::after, 
+  .card__pricing::before {
+    content: '';
+    position: absolute;
+  }
+  
+  .card__pricing::after {
+    width: 100%;
+    height: 14px;
+    left: 0;
+    bottom: 0;
+    /*clip-path: polygon(0 100%, 50% 0, 100% 100%);*/
+  }
+  
+  .card__pricing::before {
+    width: 21px;
+    height: 30px;
+    background-color: hsl(210, 96%, 37%);
+    top: 55px;
+    left: 0px;
+    clip-path: polygon(-18% 0%, 100% 0, 100% 100%);
+  }
+  .upi-card {
+    background-image: url("https://i.ibb.co/1qt1X9c/upi-card.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid #c6d1eb;
+}
+.ml-60 {
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.pricing table th {
+    border-top: 0;
+    border-right: 0;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 18px;
+    padding: 0.75rem;
+}
+/* pricing section css end*/
+
+/* faq section css start*/
+.faq h1 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.accordion .accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 16px;
+    border: 1px solid #D0DCEE;
+    padding: 5px 20px;
+    margin-bottom: 30px;
+    background: #FFF;
+  }
+  .accordion .accordion-item[aria-expanded='true']  {
+     border: 1px solid #fd6525!important;
+  }
+  .accordion .accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid #d0dcee;
+  }
+  
+  .accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .accordion button:hover,
+  .accordion button:focus {
+    cursor: pointer;
+    color: #03b5d2;
+  }
+  
+  .accordion button:hover::after,
+  .accordion button:focus::after {
+    cursor: pointer;
+    color: #03b5d2;
+    border: 1px solid #03b5d2;
+  }
+  
+  .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #1E2A39;
+  }
+  
+  .accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    color: #1e2a39;
+    top: 16px;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    border: 1px solid;
+    border-radius: 22px;
+  }
+  
+  .accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 14px;
+    left: 8px;
+    width: 15px;
+    height: 2px;
+    background: currentColor;
+  }
+  .accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 8px;
+    left: 14px;
+    width: 2px;
+    height: 15px;
+    background: currentColor;
+  }
+  
+  .accordion button[aria-expanded='true'] {
+    color: #03b5d2;
+  }
+  .accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+  }
+  .accordion button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 12em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content p {
+    color:#4E525F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    margin: 2em 0;
+  }
+  
+/* faq section css end*/
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: rgba(255, 89, 0, 1);
+    -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255, 89, 0, 1);
+}
+/* scrollbar end*/
+
+/* media query */
+@media only screen and (min-width: 768px){
+    .border-right-lg {
+        border-right: 1px solid #a0afbe !important;
+    }
+}
+@media only screen and (max-width: 768px){
+    section {
+        padding: 0px;
+    }
+    h1 {
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .jumbotron h1 {
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    .jumbotron p {
+        font-size: 16px;
+        text-align: center;
+        font-weight: 500;
+        line-height: 35px;
+    }
+    .btn-center {
+        text-align: center;
+    }
+    .p-xy {
+        padding: 15px 25px !important;
+    }
+    .line-height {
+        text-align: center;
+    }
+    .jumbotron h4 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .hero-img {
+        width: 100%;
+    }
+    
+    .benefits-rel {
+        position: relative;
+    }
+    .benefits h1 {
+        margin-left: 0 !important;
+    }
+    
+    .payment-gateway .card {
+        position: relative;
+        height: 355px;
+    }
+
+    .pricing .upi-content h2 {
+        margin-top: 60px;
+        font-size: 25px!important;
+    }
+    .ml-60 {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .border-bottom-sm {
+        border-bottom: 1px solid #a0afbe !important;
+    }
+    .pricing table th {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .accordion .accordion-item {
+        padding: 0px 20px;
+    }
+    .accordion button .accordion-title {
+        font-size: 16px;
+    }
+    .accordion button .icon {
+        top: 20px;
+        width: 25px;
+        height: 25px;
+    }
+    .accordion button .icon::before {
+        top: 10px;
+        left: 5px;
+    }
+    .accordion button .icon::after {
+        top: 4px;
+        left: 11px;
+    }
+}
+@media only screen and (min-width: 319px) and (max-width: 376px){
+    p {
+        font-size: 14px;
+    }
+    .jumbotron {
+        padding: 4rem 0rem;
+    }
+    .jumbotron h1 {
+        font-size: 23px;
+    }
+    .mt-100 {
+        margin-top: 100px !important;
+    }
+    .line-height {
+        line-height: 32px;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    .hero-img {
+        margin-top: 40px;
+    }
+    
+    .about-img {
+        margin-top: 7rem;
+    }
+    .benefits h1 {
+        margin-top: -28rem;
+        margin-left: 0 !important;
+        font-size: 22px !important;
+        font-weight: 600;
+        line-height: 40px;
+        margin-bottom: 20rem !important;
+    }
+    
+    .payment-section {
+        margin-top: 60px;
+    }
+    .d-sm-none {
+        display: none;
+    }
+    .tester_new {
+        margin: 50px 0;
+    }
+    
+    .payment-section1 {
+        margin-top: -10px;
+        padding-bottom: 20px;
+    }
+    .payment-section1 article img {
+        /* margin-bottom: 20px; */
+        margin-top: -70px !important;
+        position: absolute;
+        width: 55px;
+        height: 55px;
+    }
+    
+    .pricing h1 {
+        font-size: 25px!important;
+    }
+    .pxy-11 {
+        font-size: 15px;
+    }
+    .pricing .upi-content h2 {
+        margin-top: 60px;
+        font-size: 16px;
+        margin-bottom: -40px;
+    }
+    .faq h1 {
+        line-height: 40px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .accordion button .accordion-title {
+        font-size: 14px;
+    }
+    .accordion .accordion-content p {
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 377px)and (max-width: 425px){
+    .jumbotron {
+        padding: 5rem 1rem;
+    }
+    .hero-img {
+        margin-top: 50px;
+    }
+    .mt-100{
+      margin-top:0px!important;
+    }
+    .line-height{
+        text-align: center;
+    }
+    .benefits h1 {
+        margin-top: -30rem;
+        margin-left: 0!important;
+        font-size: 23px!important;
+        line-height: 40px;
+        margin-bottom: 21rem!important;
+    }
+    .about-img {
+        margin-top: 10rem;
+    }
+    .mb{
+        margin-bottom: -4rem !important;
+    }
+      
+    .payment-section h1{
+        margin-top: 30px!important;
+    }
+    .payment-section{
+        margin-top: 60px;
+    }
+    .d-sm-none {
+        display: none;
+    }
+    .tester_new {
+        margin: 50px 0;
+    }
+    .payment-gateway .tester_new{
+        margin-top: -115px;
+    }
+    .payment-gateway .tester_new .card img {
+        top: -215px;
+    }
+    .payment-section1 {
+        margin-top: -10px;
+        padding-bottom: 20px;
+    }
+    .payment-section1 article img {
+        /* margin-bottom: 20px; */
+        margin-top: -70px !important;
+    }
+    .article img {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+    }
+    .pricing h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .pxy-11 {
+        padding: 0;
+        text-align: center;
+        font-size: 15px;
+        
+    }
+    .pricing .upi-content h2 {
+        margin-top: 60px;
+        font-size: 16px;
+        margin-bottom: -40px;
+    }
+    .faq h1 {
+        font-size: 25px!important;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 391px) and (max-width: 426px){
+   .hero-img {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    
+}
+@media only screen and (max-width: 482px){
+    .payment-section1 article img {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 424px) and (max-width: 482px){
+    .hero-img {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .mtb-60 {
+        margin-top: -4rem;
+    }
+    .about-img {
+        margin-top: 8rem;
+    }
+    .benefits h1 {
+        line-height: 40px;
+        font-weight: 600;
+        margin-left: 0px !important;
+        word-wrap: break-word;
+        margin-top: -31rem !important;
+        margin-bottom: 25rem !important;
+    }
+    
+
+}
+@media only screen and (min-width: 424px) and (max-width: 767px){
+    .jumbotron {
+        padding: 4rem 2rem;
+    }
+    .payment-section {
+        margin-top: 60px;
+    }
+    .payment-section h1 {
+        line-height: 40px;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 30px !important;
+        word-wrap: break-word;
+    }
+    .d-sm-none {
+        display: none;
+    }
+    .tester_new {
+        margin: 50px 0;
+    }
+    .payment-section1 {
+        margin-top: -10px;
+        padding-bottom: 20px;
+    }
+    .pricing h1 {
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .faq h1 {
+        line-height: 40px;
+        font-size: 30px;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+}
+@media only screen and (max-width: 967px){
+.card img {
+    width: 70px;
+    /* margin: 32px -20px; */
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .jumbotron {
+        padding: 5rem 2rem;
+    }
+    .jumbotron h1 {
+        line-height: 50px;
+        font-size: 36px !important;
+        text-align: left;
+    }
+    .jumbotron p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 35px;
+    }
+    .mt-100 {
+        margin-top: 0 !important;
+    }
+
+    .benefits .about-img {
+        margin-top: -50px;
+    }
+    .benefits .about-img {
+        margin-top: -50px;
+        text-align: center;
+    }
+    .benefits h1 {
+        line-height: 46px;
+        font-size: 32px;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    .payment-section h1 {
+        line-height: 46px;
+        font-size: 36px;
+        font-weight: 600;
+        margin-top: 30px !important;
+        word-wrap: break-word;
+    }
+    .tester_new {
+        margin: 50px 0;
+      }
+    .payment-section1 {
+        margin-top: -10px;
+        padding-bottom: 20px;
+    }
+    .payment-section1 h1 {
+        font-size: 25px!important;
+    }
+    .payment-section1 p {
+        font-size: 16px;
+    }
+    .pricing h1 {
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .faq h1 {
+        line-height: 46px;
+        font-size: 36px;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    h1 {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 46px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    header .p-xy{
+        padding: 15px 25px!important;
+    }
+    .p-xy {
+        padding: 15px 12px !important;
+    }
+    .line-height {
+        font-size: 16px;
+        line-height: 40px;
+        margin-top: -3px;
+    }
+   
+    .jumbotron h4 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+   .payment-section {
+        padding: 0px 10px;
+    }
+    .pxy-11 {
+        padding: 0;
+        font-size: 16px;
+    }
+    .accordion .accordion-item {
+        padding: 0px 15px;
+    }
+    .accordion button .accordion-title {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1023px) and (max-width: 1200px){
+    .jumbotron {
+        padding: 5rem 2rem !important;
+    }
+    .jumbotron h1 {
+        line-height: 50px;
+        font-size: 25px;
+    }
+    .jumbotron p {
+        font-size: 15px !important;
+        line-height: 30px;
+        text-align: justify;
+    }
+    .mt-100 {
+        margin-top: 0 !important;
+    }
+    .line-height {
+        font-size: 15px;
+        line-height: 36px;
+        margin-top: 0;
+    }
+    .jumbotron h4 {
+        font-size: 20px;
+    }
+
+    .benefits {
+        margin-top: -75px;
+        margin-bottom: 35px;
+    }
+    .benefits h1 {
+        font-size: 32px;
+    }
+    .rounded {
+        border-radius: 16px !important;
+        height: 250px;
+    }
+    .pxy-11 {
+        font-size: 16px;
+    }
+    .faq h1 {
+        font-size: 36px;
+        margin-top: -70px;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
+    .jumbotron {
+        padding: 6rem 2rem;
+        height: 680px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .mt-100 {
+        margin-top: -90px !important;
+    }
+
+    .benefits {
+        margin-top: -9px;
+    }
+    .benefits h1 {
+        font-size: 42px;
+    }
+    .accordion .accordion-item {
+        padding: 0px 20px;
+    }
+
+    .accordion button .accordion-title {
+        font-size: 18px;
+    }
+
+    
+}
+@media only screen and (min-width: 1440px){
+    .container {
+        padding: 0;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .jumbotron {
+        padding: 5rem 2rem;
+        height: 700px;
+    }
+    .hero-img {
+        height: 478px;
+    }
+    .mtb-60 {
+        margin-top: -60px;
+        margin-bottom: 60px;
+    }
+    .pb-90 {
+        padding-bottom: 90px;
+    }
+    .mt-80 {
+        margin-top: 80px;
+    }
+    .mtb-30 {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+    .mtb-40 {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .mb-75 {
+        margin-bottom: 75px;
+    }
+    .rounded {
+        border-radius: 16px !important;
+        height: 240px;
+    }
+    
+}

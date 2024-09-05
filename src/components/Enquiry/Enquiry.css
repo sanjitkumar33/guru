@@ -1,0 +1,71 @@
+
+
+  .enquiry1-section{
+      background:#e9ecef;
+      margin: 0;
+  }
+  .enquiry1-section .mt-100{
+      margin-top: 100px;
+  }
+  .enquiry1-section .form {
+      background: rgba(0,0,0,.70);
+      padding: 80px 40px;
+      color: #fff;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: -1px 4px 28px 0px #21252938;
+  }
+  .enquiry1-section .form h3 {
+      color: #fff;
+      text-transform: capitalize;
+      font-size: 1.8em;
+      text-align:center;
+  }
+  .enquiry1-section .form .inputbox {
+      margin: 25px 0;
+      position: relative;
+  }
+  .enquiry1-section .form .inputbox label {
+      position: absolute;
+      top: -15px;
+      left: 8px;
+      padding: 4px 15px;
+      width: auto;
+      font-size: 15px;
+      user-select: none;
+      color: #000000;
+      background: #FF5900;
+      border-radius: 20px;
+  }
+  .enquiry1-section .form .inputbox input {
+      border: none;
+      outline: none;
+      padding: 20px 15px;
+      width: 100%;
+      font-size: 16px;
+      user-select: none;
+      outline: 2px solid #fe9467;
+      border-radius: 5px;
+      background: #343a40;
+      color: #fff;
+  }
+  .enquiry1-section  .form .inputbox .msg {
+      font-size: .70em;
+      margin-top: 5px;
+      color: #f00;
+  }
+  .enquiry1-section .form .submit {
+      width: 100%;
+      border: none;
+      outline: none;
+      padding: 15px 0;
+      font-size: 18px;
+      text-transform: capitalize;
+      color: #000000;
+      background: #fd6525;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  .enquiry1-section  .form .submit:hover{
+      color: #ffffff!important;
+  }

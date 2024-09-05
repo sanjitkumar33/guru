@@ -1,0 +1,125 @@
+
+* {
+    font-family: Plus Jakarta Sans, 'Source Sans Pro';
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    margin: 110px 0px 0px 10px;
+    width: 100%;
+    padding-left: 320px;
+    padding-right: 40px;
+}
+/* .main-content .top {
+    background: #fff !important;
+} */
+.top p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+}
+.main-content .btn-top {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0px 14px;
+    background-color: #0000ff;
+    color: #fff;
+    width: auto;
+    height: 45px;
+    float: right;
+    border-radius: 20px;
+}
+a.virtual-btn{
+    font-size: 14px;
+    color: #000;
+    font-weight: 800;
+    padding: 8px 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-color: #6c757d;
+}
+a.virtual-btn.active{
+   background:#ff5f25!important;
+   color: #000!important;
+   border:none; 
+   font-weight: 800;
+ }
+.virtual-btn:hover{
+    color: #fff!important;
+    background:#ff5f25;
+    border: none;
+}
+.btn1 {
+    padding: 0.375rem 0.75rem;
+    background: transparent;
+}
+/* .account-details {
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 25px;
+} */
+/* .account-details h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #FAFBFF;
+    border-bottom: 0;
+} */
+
+
+.text-info {
+    color: var(--sidebar-text);
+}
+.input-group {
+    position: relative;
+    background-color: #e3e7e8;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    border-radius: 10px;
+}
+.account-details input {
+    background-color: #e3e7e8;
+    border-radius: 10px;
+    font-size: 14px;
+    border: none;
+}
+.btn1 {
+    padding: 0.375rem 0.75rem;
+    background: transparent;
+}
+
+/* media query */
+@media only screen and (max-width: 427px){
+    .main-content {
+        width: 94%;
+    }
+    a.virtual-btn {
+        padding: 8px 24px;
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    .main-content {
+        margin: 110px 10px;
+        padding: 10px;
+    }
+    .main-content .btn-top {
+        float: left;
+    }
+    .virtual-btn {
+        margin: 10px;
+    }
+}
+
+
+

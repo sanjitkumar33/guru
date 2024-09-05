@@ -1,0 +1,31 @@
+
+
+.register-success-container {
+    max-width: 750px;
+    margin: 100px auto;
+    padding: 75px;
+    background-color: rgba(0, 0, 0, .70);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .register-success-container p{
+    color: white;
+  }
+  
+  .register-success-container h2 {
+    color: white
+  } 
+  
+  /* p {
+    margin-top: 20px;
+  } */
+  
+  /* Additional styling for mobile responsiveness */
+  @media (max-width: 600px) {
+    .register-success-container {
+      max-width: 300px;
+      padding: 10px;
+    }
+  }
+  
